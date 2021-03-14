@@ -1,0 +1,35 @@
+/* intuitivnější box-sizing pro všechny prvky na stránce */
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+
+/*
+	Poznámky:
+	- maximální šířka obsahu uvnitř sekcí je 1100px
+	- "pruh" s obsahem obsah je vycentrovaný na stránce
+	- všechny sekce mají nahoře a dole padding 80px
+	- kromě hlavičky a patičky, které mají jen 30px
+	- nadpisy jsou fontem Playfair Display, tučně
+	- veškerý další text na stránce fontem Lora
+	- výchozí velikost textu na stránce je 18px, řádkování 1.5
+
+	Velikosti nadpisů:
+	h1 - 52px  (nadpis v horní Hero sekci s cupcakem)
+	h2 - 36px  (nadpisy v dalších sekcích)
+	h3 - 18px  (název produktu v Dnešní nabídce)
+	Nadpisy mají řádkování jen 1.25
+
+	Barvy:
+	#f195b2		růžová - tlačítka a zvýraznění
+	#d2567d		tmavá růžová - hover/aktivní tlačítka
+	#3e606b		tmavá tyrkysová - na nadpisy
+	#242424		(skoro) černá - na běžný text
+	#f0f0f0		světle šedé pozadí prostřední sekce
+	#303339		tmavé pozadí patičky
+*/
+
+
+body {
+	margin: 0;
+}
+
